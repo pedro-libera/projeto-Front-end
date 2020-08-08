@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routes from './pages/routes';
+import './assets/styles/global.css';
 
 function App() {
   return (
     <div className="App">
-      <h1> Projeto Pet </h1>
+      <Routes/>
     </div>
   );
 }
