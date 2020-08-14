@@ -7,21 +7,22 @@ import './styles.css';
 function Footer() {
     return (
         <React.Fragment>
-            <footer>
-                <img src={logo} alt="Logo projeto pet"/>
-                <div className="social-media">
-                    <p>Nos sigam:</p>
-                    <div className="instagram">                        
-                        <img src={instagram} alt="instagram logo"></img>
-                        <p>@projetopet</p>
+            <div className="footer">
+                <footer>
+                    <img src={logo} alt="Logo projeto pet"/>
+                    <div className="social-media">
+                        <p>Nos sigam:</p>
+                        <div className="instagram">                        
+                            <img src={instagram} alt="instagram logo"></img>
+                            <p>@projetopet</p>
+                        </div>
+                        <div className="facebook">
+                            <img src={facebook} alt="facebook logo"></img>
+                            <p>/projetopet</p>
+                        </div>
                     </div>
-                    <div className="facebook">
-                        <img src={facebook} alt="facebook logo"></img>
-                        <p>/projetopet</p>
-                    </div>
-                </div>
-
-            </footer>
+                </footer>
+            </div>
         </React.Fragment>
     )
 }

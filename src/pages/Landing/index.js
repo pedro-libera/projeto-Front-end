@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 import './styles.css';
 
 function Landing() {
@@ -7,8 +6,7 @@ function Landing() {
         <React.Fragment>
             <div id="landing-body">
                 <h1>Landing</h1>
-            </div>            
-            <Footer/>
+            </div>        
         </React.Fragment>
     )
 }
