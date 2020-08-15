@@ -12,7 +12,7 @@ function Footer() {
                     <img src={logo} alt="Logo projeto pet"/>
                     <div className="social-media">
                         <p>Nos sigam:</p>
-                        <div className="instagram">                        
+                        <div className="instagram">
                             <img src={instagram} alt="instagram logo"></img>
                             <p>@projetopet</p>
                         </div>
