@@ -12,7 +12,7 @@ function Login() {
                 <div className="form-box">
                     <div className="form-title">
                         <h1>Login</h1>
-                    </div>                    
+                    </div>
                     <form>
                         <div className="input-block">
                             <label htmlFor="">
@@ -24,7 +24,7 @@ function Login() {
                             <label htmlFor="">
                                 Senha
                             </label>
-                            <input type="text"/>
+                            <input type="password"/>
                         </div>
                         <div className="checkbox-block">
                             <input type="checkbox"/>
@@ -56,8 +56,8 @@ function Login() {
                         <p>Não é cadastrado?</p>
                         <a href="#">Cadastre-se aqui</a>
                     </div>
-                </div>            
-            </div>            
+                </div>
+            </div>
         </React.Fragment>
     )
 }
