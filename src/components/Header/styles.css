@@ -1,0 +1,28 @@
+header{
+    background:var(--color-primary-lighter);
+    color:var(--color-icon-logo);
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-left: 2rem;
+}
+
+header h1{
+    margin-left: 66rem;
+}
+
+header nav{
+    margin-left: 70rem;
+}
+
+
+header nav ul li .link-item {
+    text-decoration: none ;
+    color:var(--color-icon-logo);
+}
+
+header nav ul li{
+    list-style: none;
+}
