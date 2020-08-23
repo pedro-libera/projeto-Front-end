@@ -3,18 +3,20 @@ header{
     color:var(--color-icon-logo);
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 header img{
-    margin-left: 2rem;
+/*    margin-left: 2rem; */
 }
 
 header h1{
-    margin-left: 66rem;
+/*    margin-left: 66rem; */
 }
 
 header nav{
-    margin-left: 70rem;
+  /*  margin-left: 60rem; */
 }
 
 

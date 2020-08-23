@@ -13,9 +13,8 @@
 #login-page .form-box {
     height: 50rem;
     width: 40rem;
-    background: var(--color-box-base);    
+    background: var(--color-box-base);
     border-radius: 12%;
-    margin-top: 12rem;
 }
 
 #login-page .form-box .form-title {
@@ -28,15 +27,15 @@
 
 #login-page .form-box form {
     width: 100%;
-    height: 60%;        
+    height: 60%;
 }
 
 #login-page .form-box form .input-block {
     position: relative;
-    margin: 0rem 3rem;    
+    margin: 0rem 3rem;
 }
-#login-page .form-box form .input-block + .input-block {    
-    margin: 2rem 3rem;    
+#login-page .form-box form .input-block + .input-block {
+    margin: 2rem 3rem;
 }
 
 #login-page .form-box form .input-block label {
@@ -48,19 +47,19 @@
     margin-top: 0.5rem;
 }
 
-#login-page .form-box form .checkbox-block {    
+#login-page .form-box form .checkbox-block {
     display: flex;
     justify-content: center;
-    margin: 2rem 3rem;    
+    margin: 2rem 3rem;
 }
 
-#login-page .form-box form .checkbox-block input {    
-    margin-right: 0.8rem;    
+#login-page .form-box form .checkbox-block input {
+    margin-right: 0.8rem;
 }
 
-#login-page .form-box form .checkbox-block label {    
+#login-page .form-box form .checkbox-block label {
     font-size: 1.1rem;
-    margin-bottom: 1px;   
+    margin-bottom: 1px;
 }
 
 #login-page .form-box form .button-block {
@@ -68,7 +67,7 @@
     margin: 0 3rem;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 #login-page .form-box form .button-block button {
@@ -121,17 +120,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-text-complement);    
+    color: var(--color-text-complement);
 }
 
 #login-page .form-box .register-redirect p {
     font-size: 1.2rem;
-    margin-right: 0.5rem;   
+    margin-right: 0.5rem;
 }
 
 #login-page .form-box .register-redirect a {
     font-size: 1.2rem;
     margin-right: 0.5rem;
     text-decoration: none;
-    color: var(--color-text-complement);   
+    color: var(--color-text-complement);
 }
