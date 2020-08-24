@@ -1,0 +1,116 @@
+#register-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#register-page .form-box {
+    height: auto;
+    padding: 3rem 0;
+    width: 40rem;
+    background: var(--color-box-base);
+    border-radius: 12%;
+}
+
+#register-page .title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1.5rem 0;
+
+}
+
+#register-page form {
+    width: 100%;
+    height: 70%;
+}
+
+#register-page .form-box form .input-block {
+    position: relative;
+    margin: 0rem 3rem;
+}
+
+#register-page .form-box form .input-block + .input-block {
+    margin: 2rem 3rem;
+}
+
+#register-page .form-box form .input-block label {
+    font-size: 1.8rem;
+}
+
+#register-page .form-box form .input-block input {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+#register-page .form-box form .checkbox-block {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 3rem;
+}
+
+#register-page .form-box form .checkbox-block input {
+    margin-right: 0.8rem;
+}
+
+#register-page .form-box form .checkbox-block label {
+    font-size: 1.1rem;
+    color: var(--color-text-complement);
+    /* margin-bottom: 0.7px; */
+}
+
+#register-page .form-box form .checkbox-block label a {
+    text-decoration: none;
+    color: var(--color-text-complement);
+}
+
+#register-page .form-box form .checkbox-block label a:hover {    
+    color: var(--color-text-base);
+}
+
+#register-page .form-box form .button-block {
+    position: relative;
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-page .form-box form .button-block button {
+    width: 100%;
+    border: 0;
+    border-radius: 0.8rem;
+    height: 5.6rem;
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+}
+
+#register-page .form-box .login-redirect {
+    height: 10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0 0;    
+    color: var(--color-text-complement);
+}
+
+#register-page .form-box .login-redirect p {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#register-page .form-box .login-redirect a {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text-complement);
+}
+
+#register-page .form-box .login-redirect a:hover {
+    color: var(--color-text-base);
+}
+
