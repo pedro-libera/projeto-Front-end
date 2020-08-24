@@ -2,6 +2,7 @@ import React from 'react';
 import facebookImg from '../../assets/images/facebook.png'
 import googleImg from '../../assets/images/google.png'
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -54,7 +55,7 @@ function Login() {
                     </div>
                     <div className="register-redirect">
                         <p>Não é cadastrado?</p>
-                        <a href="#">Cadastre-se aqui</a>
+                        <Link to="/register">Cadastre-se aqui</Link>
                     </div>
                 </div>
             </div>

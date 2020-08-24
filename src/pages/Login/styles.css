@@ -6,10 +6,6 @@
     justify-content: center;
 }
 
-#login-page h1 {
-    display: block;
-}
-
 #login-page .form-box {
     height: 50rem;
     width: 40rem;
